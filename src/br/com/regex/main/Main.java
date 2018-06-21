@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		//Just change the filepath to whatever you want
-		String filePath = "C:\\Users\\cielo\\Desktop\\loremIpsum.txt";
+		String filePath = "C:\\Users\\Desktop\\loremIpsum.txt";
 
 		FileReader ar = new FileReader();
 		ar.regexMatchReader(filePath);
